@@ -53,19 +53,33 @@ Upon running the program, you will be presented with the following options:
 ## Example
 
 ```plaintext
-~~~ Welcome to Virus & Spyware Detection Software ~~~
-
-Please select an option:
-
-1) Scan files in directory
-2) Check suspicious files
-3) Mark safe files
-4) Last scan statistics
-5) Delete suspicious files
-6) EXIT
-
 Option: 1
-Enter folder name or path: /path/to/your/folder
+Enter folder name or path: .
+Saved result: .
+Path: .
+
+Scan completed with the following results:
+Path: .
+Exists: True
+Type: relative
+Error: No error
+
+Printing directory summary:
+Subdirectories:
+|drwxrwxr-x| wordlists
+|drwxrwxr-x| Task Requirements
+|drwxrwxr-x| generated_files
+...
+...
+...
+
+Files:
+|-rw-rw-r--| file_handling.py | 10480 bytes | Last Modified: 2025-02-10 18:58:59
+|-rw-rw-r--| logging_module.py | 2215 bytes | Last Modified: 2025-02-06 18:18:34
+|-rw-rw-r--| json_module.py | 3745 bytes | Last Modified: 2025-02-10 19:37:38
+...
+...
+...
 ```
 
 ## Modules
