@@ -95,6 +95,11 @@ Files:
 
 Contributions are welcome! Please fork the repository and submit a pull request with your changes.
 
+## Shoutout
+
+Thanks to [Ano-Ku](https://www.github.com/Ano-Ku) for this project. **He made me do it.**
+
+
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
